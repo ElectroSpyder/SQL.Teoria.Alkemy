@@ -1,0 +1,1 @@
+ALTER TABLE Curso ADD Cupo int;

@@ -1,0 +1,1 @@
+create TABLE Curso(Codigo int not NULL, Nombre VARCHAR(100) NOT NULL, Descripcion VARCHAR(200), Turno VARCHAR(10) NOT NULL, PRIMARY KEY (Codigo));

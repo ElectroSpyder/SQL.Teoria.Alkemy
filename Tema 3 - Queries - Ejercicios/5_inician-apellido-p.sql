@@ -1,0 +1,1 @@
+SELECT * from Profesor WHERE apellido LIKE 'P%'

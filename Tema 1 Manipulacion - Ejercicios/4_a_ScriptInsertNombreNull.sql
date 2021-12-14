@@ -1,0 +1,1 @@
+INSERT into Curso(codigo, nombre, descripcion, turno, cupo)values (103, NULL,'','Tarde',30)

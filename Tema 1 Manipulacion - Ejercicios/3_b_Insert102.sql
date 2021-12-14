@@ -1,0 +1,1 @@
+INSERT into Curso(codigo, nombre, descripcion, turno, cupo)values (102, 'Matemática Discreta','','Tarde',30)

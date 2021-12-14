@@ -1,0 +1,1 @@
+SELECT * from Profesor where salario>=65000

@@ -1,0 +1,1 @@
+DELETE from Curso WHERE nombre='Algoritmos'

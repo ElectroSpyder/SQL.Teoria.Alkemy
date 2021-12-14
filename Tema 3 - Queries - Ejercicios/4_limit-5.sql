@@ -1,0 +1,1 @@
+SELECT * from Profesor LIMIT 5

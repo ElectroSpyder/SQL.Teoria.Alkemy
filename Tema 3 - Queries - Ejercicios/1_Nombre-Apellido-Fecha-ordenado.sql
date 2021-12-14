@@ -1,0 +1,1 @@
+SELECT nombre, apellido, fecha_nacimiento from Profesor order by fecha_nacimiento
