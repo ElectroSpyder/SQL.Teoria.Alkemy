@@ -1,0 +1,20 @@
+Si queremos saber la cantidad de estudiantes de cada profesor, 
+podemos ejecutar la siguiente sintaxis:
+
+SELECT p.id, count(*) as ‘Cantidad de estudiantes’
+from PROFESOR p inner join CURSO c on p.id = c.PROFESOR_id
+         inner join INSCRIPCION I on c.codigo = I.CURSO_codigo
+group by p.id
+
+
+
+Si queremos saber qué cantidad de cursos se dictan en cada turno, pero, a su vez, queremos filtrar los turnos 
+con más de dos cursos, podemos utilizar la siguiente consulta:
+
+    SELECT turno, COUNT(*)
+
+    FROM alkemy.curso
+
+    GROUP BY turno HAVING COUNT(*) > 2;
+
+
